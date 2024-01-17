@@ -16,7 +16,7 @@ Clonner le dépôt GitHub suivant dans le répertoire de votre choix :
 ### 2. **Lancer le docker-compose :**
 Si c'est la premiere fois que vous utiliser le projet, faire au préalable cette commande :
 ````bash
-docker run --rm -v $(pwd):/app -w /app node:20-alpine npm install --loglevel=verbose
+docker run --rm -v .:/app -w /app node:20-alpine npm install --loglevel=verbose
   ````
 Puis 
 
